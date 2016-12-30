@@ -58,37 +58,6 @@ h2{
 	width: 100%;
 }
 
-ul.social
-{
-width: 242px;
-margin: 80px auto 0;
-height: 62px;
-}
-
-ul.social li{
-background-image: url(../images/social.png);
-background-position: center;
-height: 62px;
-}
-
-ul.social li a{
-display: block;
-width: 62px;
-height: 62px;
-}
-
-
-ul.social li.facebook{
-height: 62px;
-background-position: 0 0;
-width: 62px;
-}
-
-ul.social li.facebook:hover{
-background-position: 0 -62px;
-}
-
-
 @media screen and (max-width: 600px){
 	#header{
 		width: 100%;
