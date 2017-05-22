@@ -206,6 +206,7 @@ a.btn:hover {
 .page-nav-wrapper .page-nav li a {
   color: rgba(255, 255, 255, 0.6);
   padding: inherit;
+  font-size: 16px;
 }
 .page-nav-wrapper .page-nav li a:hover {
   color: #fff;
@@ -461,9 +462,31 @@ a.btn:hover {
 .contact-info ul {
   margin-bottom: 0;
 }
+.contact a {
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding-top: 2px;
+  font-size: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
 .contact-info li {
   margin-right: 30px;
   color: rgba(255, 255, 255, 0.8);
+  margin-right: 0;
+  margin-bottom: 15px;
+  font-size: 14px;
+  display: inline-block;
 }
 .contact-info li a {
   color: rgba(255, 255, 255, 0.8);
@@ -477,13 +500,7 @@ a.btn:hover {
 .contact-info li .fa {
   margin-right: 1px;
   margin-top: 5px;
-}
-.contact-info li {
-  margin-right: 0;
-  margin-bottom: 15px;
-  font-size: 14px;
-  width: 100%;
-  display: inline-block;
+  font-size: 16px;
 }
 .contact-info li:last-child {
   margin-bottom: 0;
