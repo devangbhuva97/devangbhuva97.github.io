@@ -1,6 +1,12 @@
+/* Fonts */
+    @font-face {
+     font-family: Roboto;
+     src: url("../fonts/Roboto-Regular.ttf")
+    }
+/* End - Fonts */
 /* ======= Base ======= */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   color: #666;
   background: #f5f5f5;
   font-size: 14px;
