@@ -494,17 +494,12 @@ a.btn:hover {
 .contact-info li a:hover {
   color: #fff;
 }
-.contact-info li:last-child {
-  margin-right: 0;
-}
 .contact-info li .fa {
   margin-right: 1px;
   margin-top: 5px;
   font-size: 16px;
 }
-.contact-info li:last-child {
-  margin-bottom: 0;
-}
+
 .social {
   margin-bottom: 0;
 }
