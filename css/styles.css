@@ -387,6 +387,7 @@ a.btn:hover {
   display: inline-block;
   margin-right: 10px;
   border: 1px solid #f5f5f5;
+  border-left: 3px solid #4CAF50;
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 16px;
