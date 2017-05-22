@@ -305,10 +305,10 @@ a.btn:hover {
   position: relative;
 }
 .timeline .location {
-  position: absolute;
   right: 0;
   top: 2px;
   color: #8a8a8a;
+  text-align: right;
 }
 .timeline .location .fa {
   margin-right: 5px;
@@ -440,9 +440,10 @@ a.btn:hover {
 }
 .portfolio-section .item-inner .content .action {
   bottom: 20px;
-  left: 40%;
+  right: 10px;
   position: absolute;
   font-size: 16px;
+  text-decoration: underline;
 }
 .contact-info {
   background: #3d8b40;
@@ -565,24 +566,11 @@ a.btn:hover {
   }
   .portfolio-section .item-inner .content {
     padding: 15px;
-  }
-  .portfolio-section .item-inner .content .sub-title {
-    font-size: 14px;
-    max-width: 120px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .portfolio-section .item-inner .content .meta {
-    margin-bottom: 30px;
-    max-width: 120px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    height: 120px;
   }
   .portfolio-section .item-inner .content .action {
-    position: static;
-    font-size: 12px;
+    bottom: 10px;
+    right: 10px;
   }
   .social {
     margin: 0 auto;
