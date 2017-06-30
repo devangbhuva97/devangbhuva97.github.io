@@ -1,3 +1,7 @@
+.container-fluid {
+  margin-top: 100px;
+}
+
 .slider {
   margin: 20px;
 }
@@ -6,7 +10,7 @@
   color: #999;
   position: absolute;
   padding-top: 90px;
-  left: 0;
+  left: 10px;
   font-size: 30px;
   height: 210px;
 }
@@ -18,7 +22,7 @@
 .next {
   color: #999;
   position: absolute;
-  right: 0;
+  right: 10px;
   padding-top: 90px;
   font-size: 30px;
   height: 210px;
