@@ -413,7 +413,7 @@ a.btn:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 .portfolio-image {
-  min-height: 160px;
+  height: 150px;
 }
 .portfolio-section .item-inner:hover {
   background: #52b455;
