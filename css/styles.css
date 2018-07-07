@@ -282,7 +282,7 @@ a.btn:hover {
   background: #fff;
   border: 3px solid #4CAF50;
 }
-.timeline .item:after {
+/* .timeline .item:after {
   content: "";
   position: absolute;
   left: -37px;
@@ -300,7 +300,7 @@ a.btn:hover {
   background-clip: padding-box;
   background: #4CAF50;
   z-index: 10;
-}
+} */
 .timeline .work-place {
   position: relative;
 }
@@ -334,9 +334,9 @@ a.btn:hover {
 .timeline .job-desc {
   color: #666;
 }
-.education-section .item {
+/* .education-section .item {
   margin-bottom: 45px;
-}
+} */
 .education-section .item-inner {
   padding: 0 30px;
 }
