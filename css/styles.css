@@ -392,9 +392,24 @@ a.btn:hover {
   margin-bottom: 15px;
   font-size: 16px;
 }
+.skills-section .tech-stack {
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 6px 30px;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #f5f5f5;
+  border-left: 3px solid #4CAF50;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 14px;
+  background-color: #f5f5f5;
+  color: #4CAF50;
+}
 .portfolio-section .item {
   margin-bottom: 30px;
-  height: 300px;
+  /* height: 300px; */
 }
 .portfolio-section .item-inner {
   background: #4CAF50;
@@ -411,10 +426,11 @@ a.btn:hover {
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  height: 100%;
 }
-.portfolio-image {
+/* .portfolio-image {
   height: 150px;
-}
+} */
 .portfolio-section .item-inner:hover {
   background: #52b455;
 }
@@ -425,7 +441,7 @@ a.btn:hover {
 }
 .portfolio-section .item-inner .content {
   padding: 30px 10px 30px 10px;
-  height: 150px;
+  /* height: 150px; */
   text-align: center;
 }
 .portfolio-section .item-inner .content a {
@@ -524,6 +540,15 @@ a.btn:hover {
   border-color: #fff;
 }
 
+.col-container {
+  display: flex;
+  width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .actions {
@@ -567,9 +592,12 @@ a.btn:hover {
   .education-section .item {
     padding: 0;
   }
+  .skills-section .tech-stack {
+    font-size: 12px;
+  }
   .portfolio-section .item-inner .content {
     padding: 15px;
-    height: 120px;
+    /* height: 120px; */
   }
   .portfolio-section .item-inner .content .action {
     bottom: 10px;
@@ -578,5 +606,9 @@ a.btn:hover {
   .social {
     margin: 0 auto;
     text-align: center;
+  }
+
+  .col-container {
+    display: unset;
   }
 }
